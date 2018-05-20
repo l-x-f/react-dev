@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { HashRouter, Switch, Route,  Router, Redirect,BrowserRouter } from 'react-router-dom';
 import asyncComponent from '@/utils/asyncComponent';
-import App from '../view/app/App';
-// import Header from '../view/header/header';
+import App from '../pages/app/App';
+// import Header from '../pages/header/header';
 // import home from "@/pages/home/home";
-const Header = asyncComponent(() => import("@/view/header/header"));
+const Header = asyncComponent(() => import("@/pages/header/header"));
 // const helpcenter = asyncComponent(() => import("@/pages/helpcenter/helpcenter"));
 // const production = asyncComponent(() => import("@/pages/production/production"));
 // const balance = asyncComponent(() => import("@/pages/balance/balance"));
