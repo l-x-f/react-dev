@@ -6,7 +6,16 @@ export default class HomeServer {
 
     static getMenu(params) {
         return request({
-            url: '/v2/index_entry',
+            url: 'http://cangdu.org:8001/v2/index_entry',
+            method: 'get',
+            params: params
+        })
+    }
+
+    static getList(params) {
+        let baseUrl=`https://api.yooqun.com/v1/pc_admin`
+        return request({
+            url: baseUrl+'/groups/47/members/',
             method: 'get',
             params: params
         })

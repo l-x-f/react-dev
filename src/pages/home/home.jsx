@@ -18,8 +18,13 @@ class Home extends Component {
       page: 1,
       perPage: 200
     }
-    HomeServer.getMenu(params).then(res => {
+    HomeServer.getList(params).then(res => {
       console.log(res)
+      console.log(JSON.stringify(res))
+      // this.setState({ data: res });
+    })
+    HomeServer.getMenu(params).then(res => {
+      // console.log(res)
       // console.log(JSON.stringify(res))
       this.setState({ data: res });
     })

@@ -1,0 +1,111 @@
+{
+    "data": {
+        "items": [{
+            "cellPhone": "13772071946",
+            "joinAt": "2018-05-20 00:00:00",
+            "name": "免费会员",
+            "nickname": "木子烘焙蛋糕",
+            "status": 1,
+            "userId": 15880
+        }, {
+            "cellPhone": "13022830811",
+            "joinAt": "2018-05-13 00:00:00",
+            "name": "免费",
+            "nickname": "心一YH",
+            "status": 1,
+            "userId": 15806
+        }, {
+            "cellPhone": "15877678086",
+            "joinAt": "2018-05-01 00:00:00",
+            "name": "免费会员",
+            "nickname": "馨儿",
+            "status": 1,
+            "userId": 15014
+        }, {
+            "cellPhone": "18292809717",
+            "joinAt": "2018-04-10 00:00:00",
+            "name": "三个月会员",
+            "nickname": "高啊啊啊",
+            "status": 1,
+            "userId": 10874
+        }, {
+            "cellPhone": "18091806989",
+            "joinAt": "2018-04-08 00:00:00",
+            "name": "免费会员",
+            "nickname": "开窗看风景",
+            "status": 1,
+            "userId": 4766
+        }, {
+            "cellPhone": "13524540618",
+            "joinAt": "2018-04-04 00:00:00",
+            "name": "免费",
+            "nickname": "Tina",
+            "status": 1,
+            "userId": 1927
+        }, {
+            "cellPhone": "18404969231",
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "三个月会员",
+            "nickname": "不曾亏欠",
+            "status": -2,
+            "userId": 6613
+        }, {
+            "cellPhone": "17742329144",
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "三个月免费会",
+            "nickname": "柚子",
+            "status": -2,
+            "userId": 3498
+        }, {
+            "cellPhone": "18681803125",
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "三个月会员",
+            "nickname": "呆若牦牛",
+            "status": 1,
+            "userId": 7
+        }, {
+            "cellPhone": "18240888618",
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "三个月会员",
+            "nickname": "霜林醉",
+            "status": -2,
+            "userId": 2252
+        }, {
+            "cellPhone": "18992809405",
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "免费",
+            "nickname": "亨利快跑",
+            "status": 1,
+            "userId": 2
+        }, {
+            "cellPhone": "15009260363",
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "三个月会员",
+            "nickname": "🍃馨然",
+            "status": 1,
+            "userId": 5931
+        }, {
+            "cellPhone": null,
+            "joinAt": "2018-04-03 00:00:00",
+            "name": "免费",
+            "nickname": "路路",
+            "status": -2,
+            "userId": 30
+        }],
+        "page": {
+            "currentPage": 1,
+            "firstPage": 1,
+            "hasNext": false,
+            "hasPrev": false,
+            "lastPage": 1,
+            "nextPage": 0,
+            "pageCount": 13,
+            "pages": [1],
+            "perPage": 200,
+            "prevPage": 0,
+            "total": 13,
+            "totalPages": 1
+        }
+    },
+    "status": 1
+}
