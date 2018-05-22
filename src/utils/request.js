@@ -6,7 +6,7 @@ const service = axios.create({
   baseURL:``, // api的base_url
   timeout: 30000 // 请求超时时间
 })
-let getToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjY5MDM1NTEsImlhdCI6MTUyNjg5NjM1MSwidWlkIjoxLCJuYmYiOjE1MjY4OTYzNTF9.h4MjRs6Yu3LFTYF7V5TN6H2MphCYpryLWBL0ymjAUeE'
+let getToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjY5NjE1MDAsImlhdCI6MTUyNjk1NDMwMCwidWlkIjoxLCJuYmYiOjE1MjY5NTQzMDB9.UCouR0LQJq_UaHRj4UBmmO3K8a3VIJgU61HHTgk1Xvw'
 // request interceptor
 service.interceptors.request.use(config => {
   config.headers['Authorization'] = 'JWT ' + getToken // 让每个请求携带token-- ['X-Token']为自定义key 请根据实际情况自行修改
