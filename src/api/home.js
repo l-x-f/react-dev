@@ -6,16 +6,17 @@ export default class HomeServer {
 
     static getMenu(params) {
         return request({
-            url: 'http://cangdu.org:8001/v2/index_entry',
+            url: '/v2/index_entry',
             method: 'get',
             params: params
         })
     }
 
-    static getList(params) {
-        let baseUrl=`https://api.yooqun.com/v1/pc_admin`
+    static getShoppingList(params) {
+        // 示例：
+        // http://cangdu.org:8001/shopping/restaurants?latitude=31.22967&longitude=121.4762
         return request({
-            url: baseUrl+'/events/337/members/',
+            url:'/shopping/restaurants?latitude=31.22967&longitude=121.4762',
             method: 'get',
             params: params
         })
